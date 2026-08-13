@@ -1,0 +1,4 @@
+{
+    "skin_types": ["oily", "dry", "combination", "sensitive", "normal"],
+    "concerns": ["acne", "dark_spot", "wrinkle", "dark_circle", "oily", "dryness", "sensitivity", "aging", "pores", "sun_protection"]
+}

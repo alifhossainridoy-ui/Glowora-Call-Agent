@@ -1,0 +1,13 @@
+{
+    "ingredients": [
+        {"name": "Vitamin C", "description": "Antioxidant that brightens skin and fades dark spots."},
+        {"name": "Niacinamide", "description": "Reduces oiliness, pore size, and evens skin tone."},
+        {"name": "Hyaluronic Acid", "description": "Humectant that draws moisture into the skin."},
+        {"name": "Retinol", "description": "Vitamin A derivative that reduces wrinkles and boosts cell turnover."},
+        {"name": "Salicylic Acid", "description": "Beta hydroxy acid that unclogs pores and treats acne."},
+        {"name": "Zinc Oxide", "description": "Mineral sunscreen agent providing broad-spectrum UV protection."},
+        {"name": "Ceramides", "description": "Lipids that restore and maintain the skin's moisture barrier."},
+        {"name": "Argan Oil", "description": "Nourishing oil rich in vitamin E for hair and skin."},
+        {"name": "Activated Charcoal", "description": "Absorbs excess oil and impurities from pores."}
+    ]
+}

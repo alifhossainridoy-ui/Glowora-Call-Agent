@@ -1,0 +1,27 @@
+{
+    "name": "Your Cosmetics Shop",
+    "name_bn": "আপনার কসমেটিক্স শপ",
+    "owner": "Sir",
+    "owner_bn": "স্যার",
+    "phone": "017XXXXXXXX",
+    "whatsapp": "017XXXXXXXX",
+    "email": "your@email.com",
+    "website": "https://your-cosmetics-shop.com",
+    "facebook": "https://facebook.com/yourpage",
+    "address": "Your Shop Address",
+    "address_bn": "আপনার দোকানের ঠিকানা",
+    "working_hours": "10 AM - 10 PM",
+    "working_hours_bn": "সকাল ১০টা - রাত ১০টা",
+    "categories": [
+        "Facial Cream", "Serum", "Sunscreen", "Moisturizer",
+        "Cleanser", "Toner", "Makeup", "Lipstick", "Eyeshadow",
+        "Perfume", "Body Lotion", "Hair Care", "Face Mask",
+        "Eye Cream", "Lip Balm", "Primer", "BB Cream"
+    ],
+    "payment_methods": ["Cash on Delivery", "bKash", "Nagad", "Card"],
+    "delivery_areas": ["Dhaka", "Chittagong", "Sylhet", "Rajshahi"],
+    "return_policy": "7 days return policy",
+    "welcome_message": "Welcome to our shop!",
+    "auto_reply_enabled": true,
+    "notification_enabled": true
+}

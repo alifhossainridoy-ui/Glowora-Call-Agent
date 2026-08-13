@@ -1,0 +1,49 @@
+#:kivy 2.2.1
+#:import platform kivy.utils.platform
+
+<JarvisMainUI>:
+    canvas.before:
+        Color:
+            rgba: 0.08, 0.08, 0.12, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<ChatBubble@BoxLayout>:
+    text: ''
+    is_user: False
+    size_hint_y: None
+    height: self.minimum_height
+    padding: [20, 5, 20, 5]
+
+    canvas.before:
+        Color:
+            rgba: (0.15, 0.45, 0.85, 1) if self.is_user else (0.12, 0.14, 0.18, 1)
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [15, 15, 2, 15] if self.is_user else [15, 15, 15, 2]
+
+    Label:
+        text: root.text
+        font_size: '15sp'
+        color: 0.95, 0.95, 0.97, 1
+        text_size: self.width - 20, None
+        size_hint_y: None
+        height: self.texture_size[1] + 20
+        halign: 'right' if root.is_user else 'left'
+        valign: 'center'
+
+<MicButton@Button>:
+    text: 'MIC'
+    font_size: '24sp'
+    background_color: 0.15, 0.45, 0.85, 1
+    background_normal: ''
+    size_hint: None, None
+    size: 80, 80
+
+<ActionButton@Button>:
+    font_size: '14sp'
+    background_color: 0.12, 0.14, 0.18, 1
+    background_normal: ''
+    color: 0.95, 0.95, 0.97, 1
