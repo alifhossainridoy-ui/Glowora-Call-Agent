@@ -34,7 +34,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p .buildozer_global
-          docker run --rm \
+          yes | docker run --rm -i \
             -v "$PWD":/home/user/hostcwd \
             -v "$PWD/.buildozer_global":/home/user/.buildozer \
             kivy/buildozer android debug 2>&1 | tee buildozer_output.log
