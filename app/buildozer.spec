@@ -11,7 +11,7 @@ fullscreen = 0
 
 android.permissions = INTERNET,RECORD_AUDIO,CALL_PHONE,SEND_SMS,READ_CONTACTS,READ_PHONE_STATE,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,BIND_ACCESSIBILITY_SERVICE,SYSTEM_ALERT_WINDOW
 android.api = 33
-android.minapi = 21
+android.minapi = 24
 android.sdk = 33
 android.ndk = 25b
 android.arch = arm64-v8a
