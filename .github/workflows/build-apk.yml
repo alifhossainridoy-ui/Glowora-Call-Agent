@@ -34,17 +34,52 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p .buildozer_global
+
+          # Pass 1: build hostpython3 (this normally fails once it reaches
+          # Kivy, because pip's isolated build env fetches a Cython that
+          # imports the Python-3.13+-removed 'cgi' module). PIP_CONSTRAINT
+          # is NOT honored inside pip's isolated build backends, so it can't
+          # fix this on its own -- it's set here anyway for the outer install.
+          set +e
           yes | docker run --rm -i \
             -v "$PWD":/home/user/hostcwd \
             -v "$PWD/.buildozer_global":/home/user/.buildozer \
             -e PIP_CONSTRAINT=/home/user/hostcwd/pip-constraints.txt \
+            kivy/buildozer android debug 2>&1 | tee buildozer_output_pass1.log
+          set -e
+
+          HOSTPY_REL=$(find .buildozer -type f -path '*hostpython3*/native-build/root/usr/local/bin/python3.1*' 2>/dev/null | head -n1)
+          echo "hostpython3 binary: ${HOSTPY_REL:-not found}"
+
+          if [ -n "$HOSTPY_REL" ]; then
+            # Downgrade Cython inside hostpython3 itself, then rebuild with
+            # build isolation OFF so pip reuses this pinned Cython instead
+            # of fetching a fresh (broken) one per-package.
+            docker run --rm \
+              -v "$PWD":/home/user/hostcwd \
+              -v "$PWD/.buildozer_global":/home/user/.buildozer \
+              kivy/buildozer /bin/bash -c \
+                "/home/user/hostcwd/$HOSTPY_REL -m pip install --upgrade 'Cython<3.0' 'setuptools<70' wheel"
+          fi
+
+          yes | docker run --rm -i \
+            -v "$PWD":/home/user/hostcwd \
+            -v "$PWD/.buildozer_global":/home/user/.buildozer \
+            -e PIP_CONSTRAINT=/home/user/hostcwd/pip-constraints.txt \
+            -e PIP_NO_BUILD_ISOLATION=1 \
             kivy/buildozer android debug 2>&1 | tee buildozer_output.log
 
       - name: Save failure log to repo (for offline diagnosis)
         if: failure()
         run: |
           mkdir -p ci-logs
-          tail -n 400 buildozer_output.log > ci-logs/last_failure.log
+          {
+            echo "===== pass1 log (last 100 lines) ====="
+            tail -n 100 buildozer_output_pass1.log 2>/dev/null
+            echo
+            echo "===== pass2 log (last 500 lines) ====="
+            tail -n 500 buildozer_output.log 2>/dev/null
+          } > ci-logs/last_failure.log
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin main
