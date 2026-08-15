@@ -5,6 +5,9 @@ on:
     branches: [ main ]
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -50,7 +53,21 @@ jobs:
 
       - name: Build debug APK
         run: |
-          yes | buildozer android debug
+          set -o pipefail
+          yes | buildozer android debug 2>&1 | tee buildozer_output.log
+
+      - name: Save failure log to repo (for offline diagnosis)
+        if: failure()
+        run: |
+          mkdir -p ci-logs
+          tail -n 400 buildozer_output.log > ci-logs/last_failure.log
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout main
+          git add ci-logs/last_failure.log
+          git commit -m "ci: save failure log from run ${{ github.run_id }}" || exit 0
+          git push origin main
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
