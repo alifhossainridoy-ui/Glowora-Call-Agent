@@ -1,4 +1,4 @@
-# Jarvis Cosmetics AI Assistant
+# Glowora Call Agent (Jarvis Cosmetics AI Assistant)
 
 Bengali-language voice assistant (Kivy + Python, Android APK) for running a
 cosmetics/beauty shop: order management, WhatsApp/call automation, product
