@@ -5,7 +5,7 @@ package.domain = org.jarvis.cosmetics
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json,mp3,ttf,db,sqlite
 version = 2.0.0
-requirements = python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,numpy,regex,python-dateutil
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,python-dateutil
 orientation = portrait
 fullscreen = 0
 
