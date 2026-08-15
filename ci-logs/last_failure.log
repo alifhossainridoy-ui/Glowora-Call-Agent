@@ -1,0 +1,400 @@
+[INFO   ] copying kivy/tools/theming/defaulttheme/button_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/previous_normal.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/button_disabled_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_disabled_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/modalview-background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/action_view.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/splitter.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/spinner_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/switch-background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/action_item.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/action_group.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/ring.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/progressbar.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/separator.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/filechooser_selected.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/selector_right.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_key_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/tree_closed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/button.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/tab_btn_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_down_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/button_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/audio-volume-low.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_grip.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_disabled_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/close.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/media-playback-start.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/sliderh_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/action_group_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/audio-volume-medium.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/textinput.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/tab_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/progressbar_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/media-playback-pause.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/spinner.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_grip_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/tab.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/action_group_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/action_bar.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/filechooser_file.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/textinput_disabled_active.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/sliderh_background_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/selector_left.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/audio-volume-muted.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_disabled_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/overflow.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/switch-button_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/slider_cursor_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/bubble.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/sliderv_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/switch-background_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/media-playback-stop.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/player-background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/spinner_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/tab_btn_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/image-missing.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tools/theming/defaulttheme/bubble_arrow.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
+[INFO   ] copying kivy/tests/pytest.ini -> build/lib.linux-x86_64-cpython-314/kivy/tests
+[INFO   ] copying kivy/tests/unicode_font.zip -> build/lib.linux-x86_64-cpython-314/kivy/tests
+[INFO   ] copying kivy/tests/unicode_files.zip -> build/lib.linux-x86_64-cpython-314/kivy/tests
+[INFO   ] copying kivy/tests/coverage_lang.kv -> build/lib.linux-x86_64-cpython-314/kivy/tests
+[INFO   ] copying kivy/tests/test_button.png -> build/lib.linux-x86_64-cpython-314/kivy/tests
+[INFO   ] copying kivy/tests/sample1.ogg -> build/lib.linux-x86_64-cpython-314/kivy/tests
+[INFO   ] copying kivy/tests/testkv.kv -> build/lib.linux-x86_64-cpython-314/kivy/tests
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/data
+[INFO   ] copying kivy/tests/data/test.ini -> build/lib.linux-x86_64-cpython-314/kivy/tests/data
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] copying kivy/tests/test_issues/test_6315.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] copying kivy/tests/test_issues/test_issue_1084.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] copying kivy/tests/test_issues/test_issue_609.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] copying kivy/tests/test_issues/test_issue_599.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] copying kivy/tests/test_issues/test_issue_6909.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] copying kivy/tests/test_issues/test_issue_1091.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] copying kivy/tests/test_issues/test_issue_883.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller
+[INFO   ] copying kivy/tests/pyinstaller/test_pyinstaller.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/test_urlrequest
+[INFO   ] copying kivy/tests/test_urlrequest/test_urlrequest_urllib.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_urlrequest
+[INFO   ] copying kivy/tests/test_urlrequest/test_urlrequest_requests.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_urlrequest
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget
+[INFO   ] copying kivy/tests/pyinstaller/simple_widget/main.spec -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget
+[INFO   ] copying kivy/tests/pyinstaller/simple_widget/main.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget
+[INFO   ] copying kivy/tests/pyinstaller/video_widget/main.spec -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget
+[INFO   ] copying kivy/tests/pyinstaller/video_widget/main.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget/project
+[INFO   ] copying kivy/tests/pyinstaller/video_widget/project/__init__.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget/project
+[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget/project
+[INFO   ] copying kivy/tests/pyinstaller/simple_widget/project/__init__.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget/project
+[INFO   ] copying kivy/tests/pyinstaller/simple_widget/project/widget.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget/project
+[INFO   ] running build_ext
+Building extensions in parallel using 4 cores
+Updated build directory to: build/lib.linux-x86_64-cpython-314
+Build configuration is:
+ * use_rpi_vidcore_lite = 0
+ * use_egl = 0
+ * use_opengl_es2 = 1
+ * use_opengl_mock = 0
+ * use_sdl2 = 1
+ * use_pangoft2 = 0
+ * use_ios = 0
+ * use_android = 1
+ * use_mesagl = 0
+ * use_x11 = 0
+ * use_wayland = 0
+ * use_gstreamer = 0
+ * use_avfoundation = 0
+ * use_osx_frameworks = 0
+ * debug_gl = 0
+ * kivy_sdl_gl_alpha_size = 8
+ * debug = False
+Updated build/lib.linux-x86_64-cpython-314/kivy/include/config.h
+Updated /home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.h
+Updated build/lib.linux-x86_64-cpython-314/kivy/include/config.pxi
+Updated /home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi
+Updated build/lib.linux-x86_64-cpython-314/kivy/setupconfig.py
+Updated /home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/setupconfig.py
+Detected compiler is unix
+[INFO   ] cythoning /home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.pyx to /home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.c
+ Traceback (most recent call last):
+   File "/home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+     main()
+     ~~~~^^
+   File "/home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+     json_out["return_val"] = hook(**hook_input["kwargs"])
+                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+   File "/home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 280, in build_wheel
+     return _build_backend().build_wheel(
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+         wheel_directory, config_settings, metadata_directory
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     )
+     ^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/build_meta.py", line 438, in build_wheel
+     return _build(['bdist_wheel'])
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/build_meta.py", line 429, in _build
+     return self._build_with_temp_dir(
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^
+         cmd,
+         ^^^^
+     ...<3 lines>...
+         self._arbitrary_args(config_settings),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     )
+     ^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+     self.run_setup()
+     ~~~~~~~~~~~~~~^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+     super().run_setup(setup_script=setup_script)
+     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+     exec(code, locals())  # noqa: S102 # exec is intentional here
+     ~~~~^^^^^^^^^^^^^^^^
+   File "<string>", line 1153, in <module>
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
+     return distutils.core.setup(**attrs)  # type: ignore[return-value]
+            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
+     return run_commands(dist)
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
+     dist.run_commands()
+     ~~~~~~~~~~~~~~~~~^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
+     self.run_command(cmd)
+     ~~~~~~~~~~~~~~~~^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+     super().run_command(command)
+     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+     cmd_obj.run()
+     ~~~~~~~~~~~^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 385, in run
+     self.run_command("build")
+     ~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+     self.distribution.run_command(command)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+     super().run_command(command)
+     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+     cmd_obj.run()
+     ~~~~~~~~~~~^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
+     self.run_command(cmd_name)
+     ~~~~~~~~~~~~~~~~^^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+     self.distribution.run_command(command)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+     super().run_command(command)
+     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+     cmd_obj.run()
+     ~~~~~~~~~~~^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
+     _build_ext.run(self)
+     ~~~~~~~~~~~~~~^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
+     _build_ext.build_ext.run(self)
+     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
+     self.build_extensions()
+     ~~~~~~~~~~~~~~~~~~~~~^^
+   File "<string>", line 343, in build_extensions
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
+     ext.sources = self.cython_sources(ext.sources, ext)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
+     result = cython_compile(source, options=options,
+                             full_module_name=module_name)
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
+     return compile_single(source, options, full_module_name)
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
+     return run_pipeline(source, options, full_module_name)
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
+     context = options.create_context()
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
+     return Context(self.include_path, self.compiler_directives,
+                    self.cplus, self.language_level, options=self)
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
+     from . import Builtin, CythonScope
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
+     from .UtilityCode import CythonUtilityCode
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
+     from .TreeFragment import parse_from_strings, StringParseContext
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
+     from .Visitor import VisitorTransform
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
+     from . import ExprNodes
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
+     class SliceIndexNode(ExprNode):
+     ...<486 lines>...
+             return "<unused>"
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
+     get_slice_utility_code = TempitaUtilityCode.load(
+         "SliceObject", "ObjectHandling.c", context={'access': 'Get'})
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
+     return cls(**kwargs)
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
+     proto = sub_tempita(proto, context, file, name)
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
+     from ..Tempita import sub
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
+     from ._tempita import *
+   File "/tmp/build-env-fxi7d4u0/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
+     import cgi
+ ModuleNotFoundError: No module named 'cgi'
+
+[91mERROR[0m Backend subprocess exited when trying to invoke build_wheel
+
+
+  STDERR:
+
+# Command failed: ['/opt/hostedtoolcache/Python/3.11.15/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=jarviscosmetics', '--bootstrap=sdl2', '--requirements=python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,python-dateutil', '--arch=arm64-v8a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent/.buildozer/android/platform/build-arm64-v8a', '--ndk-api=24', '--ignore-setup-py', '--debug']
+# ENVIRONMENT:
+#     SHELL = '/bin/bash'
+#     SELENIUM_JAR_PATH = '/usr/share/java/selenium-server.jar'
+#     CONDA = '/usr/share/miniconda'
+#     GITHUB_WORKSPACE = '/home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent'
+#     JAVA_HOME_11_X64 = '/usr/lib/jvm/temurin-11-jdk-amd64'
+#     JAVA_HOME_25_X64 = '/usr/lib/jvm/temurin-25-jdk-amd64'
+#     PKG_CONFIG_PATH = '/opt/hostedtoolcache/Python/3.11.15/x64/lib/pkgconfig'
+#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_d0881287-1ecc-47e2-bcd7-1cd9faad51b9'
+#     GITHUB_ACTION = '__run_4'
+#     JAVA_HOME = '/usr/lib/jvm/temurin-11-jdk-amd64'
+#     GITHUB_RUN_NUMBER = '7'
+#     RUNNER_NAME = 'GitHub Actions 1000000006'
+#     GRADLE_HOME = '/usr/share/gradle-9.7.0'
+#     GITHUB_REPOSITORY_OWNER_ID = '294327789'
+#     ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE = '/opt/actionarchivecache'
+#     XDG_CONFIG_HOME = '/home/runner/.config'
+#     Python_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.15/x64'
+#     DOTNET_SKIP_FIRST_TIME_EXPERIENCE = '1'
+#     ANT_HOME = '/usr/share/ant'
+#     JAVA_HOME_8_X64 = '/usr/lib/jvm/temurin-8-jdk-amd64'
+#     GITHUB_TRIGGERING_ACTOR = 'alifhossainridoy-ui'
+#     pythonLocation = '/opt/hostedtoolcache/Python/3.11.15/x64'
+#     GITHUB_REF_TYPE = 'branch'
+#     HOMEBREW_CLEANUP_PERIODIC_FULL_DAYS = '3650'
+#     ACTIONS_RUNNER_RETURN_JOB_RESULT_FOR_HOSTED = '1'
+#     ANDROID_NDK = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
+#     BOOTSTRAP_HASKELL_NONINTERACTIVE = '1'
+#     PWD = '/home/runner/work/Glowora-Call-Agent/Glowora-Call-Agent'
+#     PIPX_BIN_DIR = '/opt/pipx_bin'
+#     LOGNAME = 'runner'
+#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_d0881287-1ecc-47e2-bcd7-1cd9faad51b9'
+#     GITHUB_REPOSITORY_ID = '1334907497'
+#     GITHUB_ACTIONS = 'true'
+#     USE_BAZEL_FALLBACK_VERSION = 'silent:'
+#     ANDROID_NDK_LATEST_HOME = '/usr/local/lib/android/sdk/ndk/29.0.14206865'
+#     SYSTEMD_EXEC_PID = '1364'
+#     GITHUB_SHA = '09b7beaeac11be347ef539c1e0d878f1c1110419'
+#     GITHUB_WORKFLOW_REF = 'alifhossainridoy-ui/Glowora-Call-Agent/.github/workflows/build-apk.yml@refs/heads/main'
+#     POWERSHELL_DISTRIBUTION_CHANNEL = 'GitHub-Actions-Linux'
+#     RUNNER_ENVIRONMENT = 'github-hosted'
+#     DOTNET_MULTILEVEL_LOOKUP = '0'
+#     GITHUB_REF = 'refs/heads/main'
+#     RUNNER_OS = 'Linux'
+#     GITHUB_REF_PROTECTED = 'false'
+#     HOME = '/home/runner'
+#     GITHUB_API_URL = 'https://api.github.com'
+#     LANG = 'C.UTF-8'
+#     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.12/x64'
+#     RUNNER_TRACKING_ID = 'github_03ffd044-3a3c-4773-90a1-0a1fed5704d7'
+#     RUNNER_ARCH = 'X64'
+#     RUNNER_TEMP = '/home/runner/work/_temp'
+#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_d0881287-1ecc-47e2-bcd7-1cd9faad51b9'
+#     EDGEWEBDRIVER = '/usr/local/share/edge_driver'
+#     JAVA_HOME_21_X64 = '/usr/lib/jvm/temurin-21-jdk-amd64'
+#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_d0881287-1ecc-47e2-bcd7-1cd9faad51b9'
+#     GITHUB_EVENT_PATH = '/home/runner/work/_temp/_github_workflow/event.json'
+#     INVOCATION_ID = '1344ca4ce68d4f49b9b3722d2387a324'
+#     GITHUB_EVENT_NAME = 'push'
+#     GITHUB_RUN_ID = '31908465790'
+#     JAVA_HOME_17_X64 = '/usr/lib/jvm/temurin-17-jdk-amd64'
+#     ANDROID_NDK_HOME = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
+#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_d0881287-1ecc-47e2-bcd7-1cd9faad51b9'
+#     HOMEBREW_NO_AUTO_UPDATE = '1'
+#     GITHUB_ACTOR = 'alifhossainridoy-ui'
+#     NVM_DIR = '/home/runner/.nvm'
+#     SGX_AESM_ADDR = '1'
+#     GITHUB_RUN_ATTEMPT = '1'
+#     ANDROID_HOME = '/usr/local/lib/android/sdk'
+#     GITHUB_GRAPHQL_URL = 'https://api.github.com/graphql'
+#     ACCEPT_EULA = 'Y'
+#     USER = 'runner'
+#     PSModulePath = '/root/.local/share/powershell/Modules:/usr/local/share/powershell/Modules:/opt/microsoft/powershell/7/Modules:/usr/share/az_15.6.1'
+#     GITHUB_SERVER_URL = 'https://github.com'
+#     PIPX_HOME = '/opt/pipx'
+#     GECKOWEBDRIVER = '/usr/local/share/gecko_driver'
+#     CHROMEWEBDRIVER = '/usr/local/share/chromedriver-linux64'
+#     SHLVL = '0'
+#     ANDROID_SDK_ROOT = '/usr/local/lib/android/sdk'
+#     VCPKG_INSTALLATION_ROOT = '/usr/local/share/vcpkg'
+#     GITHUB_ACTOR_ID = '294327789'
+#     ACTIONS_ORCHESTRATION_ID = 'f8f8ae7c-30d8-4a19-82fb-45f734acc8d7.build.__default'
+#     RUNNER_TOOL_CACHE = '/opt/hostedtoolcache'
+#     ImageVersion = '20260810.260.1'
+#     Python3_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.15/x64'
+#     DOTNET_NOLOGO = '1'
+#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_d0881287-1ecc-47e2-bcd7-1cd9faad51b9'
+#     GITHUB_WORKFLOW_SHA = '09b7beaeac11be347ef539c1e0d878f1c1110419'
+#     GOROOT_1_24_X64 = '/opt/hostedtoolcache/go/1.24.13/x64'
+#     GITHUB_REF_NAME = 'main'
+#     GITHUB_JOB = 'build'
+#     LD_LIBRARY_PATH = '/opt/hostedtoolcache/Python/3.11.15/x64/lib'
+#     XDG_RUNTIME_DIR = '/run/user/1001'
+#     AZURE_EXTENSION_DIR = '/opt/az/azcliextensions'
+#     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.5/x64'
+#     GITHUB_REPOSITORY = 'alifhossainridoy-ui/Glowora-Call-Agent'
+#     Python2_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.15/x64'
+#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
+#     CHROME_BIN = '/usr/bin/google-chrome'
+#     GITHUB_RETENTION_DAYS = '90'
+#     JOURNAL_STREAM = '8:9646'
+#     RUNNER_WORKSPACE = '/home/runner/work/Glowora-Call-Agent'
+#     LEIN_HOME = '/usr/local/lib/lein'
+#     LEIN_JAR = '/usr/local/lib/lein/self-installs/leiningen-2.12.0-standalone.jar'
+#     GITHUB_ACTION_REPOSITORY = ''
+#     HCA_CLOUD_PROVIDER = 'azure'
+#     PATH = '/home/runner/.buildozer/android/platform/apache-ant-1.9.4/bin:/opt/hostedtoolcache/Python/3.11.15/x64/bin:/opt/hostedtoolcache/Python/3.11.15/x64:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+#     GITHUB_BASE_REF = ''
+#     GHCUP_INSTALL_BASE_PREFIX = '/usr/local'
+#     CI = 'true'
+#     SWIFT_PATH = '/usr/share/swift/usr/bin'
+#     ImageOS = 'ubuntu22'
+#     GITHUB_REPOSITORY_OWNER = 'alifhossainridoy-ui'
+#     GITHUB_HEAD_REF = ''
+#     GITHUB_ACTION_REF = ''
+#     ENABLE_RUNNER_TRACING = 'true'
+#     GITHUB_WORKFLOW = 'Build Android APK'
+#     DEBIAN_FRONTEND = 'noninteractive'
+#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_d0881287-1ecc-47e2-bcd7-1cd9faad51b9'
+#     AGENT_TOOLSDIRECTORY = '/opt/hostedtoolcache'
+#     _ = '/opt/hostedtoolcache/Python/3.11.15/x64/bin/buildozer'
+#     PACKAGES_PATH = '/home/runner/.buildozer/android/packages'
+#     ANDROIDSDK = '/home/runner/.buildozer/android/platform/android-sdk'
+#     ANDROIDNDK = '/home/runner/.buildozer/android/platform/android-ndk-r25b'
+#     ANDROIDAPI = '33'
+#     ANDROIDMINAPI = '24'
+# 
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
