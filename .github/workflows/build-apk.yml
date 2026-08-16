@@ -72,20 +72,22 @@ jobs:
       - name: Save failure log to repo (for offline diagnosis)
         if: failure()
         run: |
-          sudo chown -R "$(id -u)":"$(id -g)" . || true
+          set -x
           mkdir -p ci-logs
           {
             echo "===== pass1 log (last 150 lines) ====="
-            tail -n 150 buildozer_output_pass1.log 2>/dev/null
+            sudo tail -n 150 buildozer_output_pass1.log 2>/dev/null
             echo
             echo "===== pass2 log (last 800 lines) ====="
-            tail -n 800 buildozer_output.log 2>/dev/null
-          } > ci-logs/last_failure.log
+            sudo tail -n 800 buildozer_output.log 2>/dev/null
+          } | sudo tee ci-logs/last_failure.log > /dev/null
+          sudo chown "$(id -u)":"$(id -g)" ci-logs/last_failure.log
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add ci-logs/last_failure.log
-          git commit -m "ci: save failure log from run ${{ github.run_id }}" || exit 0
+          git commit -m "ci: save failure log from run ${{ github.run_id }}"
           git push origin HEAD:main
+        continue-on-error: true
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
