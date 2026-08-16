@@ -33,6 +33,7 @@ jobs:
       - name: Build debug APK (official kivy/buildozer Docker image)
         run: |
           set -o pipefail
+          set +e
           mkdir -p .buildozer_global
 
           # Pass 1: build hostpython3 (this normally fails once it reaches
@@ -40,26 +41,26 @@ jobs:
           # imports the Python-3.13+-removed 'cgi' module). PIP_CONSTRAINT
           # is NOT honored inside pip's isolated build backends, so it can't
           # fix this on its own -- it's set here anyway for the outer install.
-          set +e
           yes | docker run --rm -i \
             -v "$PWD":/home/user/hostcwd \
             -v "$PWD/.buildozer_global":/home/user/.buildozer \
             -e PIP_CONSTRAINT=/home/user/hostcwd/pip-constraints.txt \
             kivy/buildozer android debug 2>&1 | tee buildozer_output_pass1.log
-          set -e
 
-          HOSTPY_REL=$(sudo find .buildozer -type f -path '*hostpython3*/native-build/root/usr/local/bin/python3.1*' 2>/dev/null | head -n1 || true)
-          echo "hostpython3 binary: ${HOSTPY_REL:-not found}"
+          HOSTPY_REL=$(sudo find .buildozer -type f -path '*hostpython3*/native-build/root/usr/local/bin/python3.1*' 2>/dev/null | head -n1)
+          echo "hostpython3 binary: ${HOSTPY_REL:-not found}" | tee hostpython_lookup.log
 
           if [ -n "$HOSTPY_REL" ]; then
             # Downgrade Cython inside hostpython3 itself, then rebuild with
             # build isolation OFF so pip reuses this pinned Cython instead
-            # of fetching a fresh (broken) one per-package.
+            # of fetching a fresh (broken) one per-package. Non-fatal: if this
+            # fails we still want pass 2 to run and produce a fresh log.
             docker run --rm \
               -v "$PWD":/home/user/hostcwd \
               -v "$PWD/.buildozer_global":/home/user/.buildozer \
               kivy/buildozer /bin/bash -c \
-                "/home/user/hostcwd/$HOSTPY_REL -m pip install --upgrade 'Cython<3.0' 'setuptools<70' wheel"
+                "/home/user/hostcwd/$HOSTPY_REL -m pip install --upgrade 'Cython<3.0' 'setuptools<70' wheel" \
+                2>&1 | tee cython_patch.log
           fi
 
           yes | docker run --rm -i \
@@ -68,6 +69,8 @@ jobs:
             -e PIP_CONSTRAINT=/home/user/hostcwd/pip-constraints.txt \
             -e PIP_NO_BUILD_ISOLATION=1 \
             kivy/buildozer android debug 2>&1 | tee buildozer_output.log
+          RESULT=$?
+          exit $RESULT
 
       - name: Save failure log to repo (for offline diagnosis)
         if: failure()
@@ -75,11 +78,17 @@ jobs:
           set -x
           mkdir -p ci-logs
           {
-            echo "===== pass1 log (last 150 lines) ====="
-            sudo tail -n 150 buildozer_output_pass1.log 2>/dev/null
+            echo "===== pass1 log (last 100 lines) ====="
+            sudo tail -n 100 buildozer_output_pass1.log 2>/dev/null
             echo
-            echo "===== pass2 log (last 800 lines) ====="
-            sudo tail -n 800 buildozer_output.log 2>/dev/null
+            echo "===== hostpython lookup ====="
+            sudo cat hostpython_lookup.log 2>/dev/null
+            echo
+            echo "===== cython patch log ====="
+            sudo cat cython_patch.log 2>/dev/null
+            echo
+            echo "===== pass2 log (last 600 lines) ====="
+            sudo tail -n 600 buildozer_output.log 2>/dev/null
           } | sudo tee ci-logs/last_failure.log > /dev/null
           sudo chown "$(id -u)":"$(id -g)" ci-logs/last_failure.log
           git config user.name "github-actions[bot]"
