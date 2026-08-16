@@ -48,7 +48,7 @@ jobs:
             kivy/buildozer android debug 2>&1 | tee buildozer_output_pass1.log
           set -e
 
-          HOSTPY_REL=$(find .buildozer -type f -path '*hostpython3*/native-build/root/usr/local/bin/python3.1*' 2>/dev/null | head -n1)
+          HOSTPY_REL=$(sudo find .buildozer -type f -path '*hostpython3*/native-build/root/usr/local/bin/python3.1*' 2>/dev/null | head -n1 || true)
           echo "hostpython3 binary: ${HOSTPY_REL:-not found}"
 
           if [ -n "$HOSTPY_REL" ]; then
