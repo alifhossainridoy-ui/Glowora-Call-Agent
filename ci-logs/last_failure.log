@@ -3,108 +3,108 @@
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
      )
      ^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
      self.run_setup()
      ~~~~~~~~~~~~~~^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
      super().run_setup(setup_script=setup_script)
      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
      exec(code, locals())  # noqa: S102 # exec is intentional here
      ~~~~^^^^^^^^^^^^^^^^
    File "<string>", line 1153, in <module>
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
      return distutils.core.setup(**attrs)  # type: ignore[return-value]
             ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
      return run_commands(dist)
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
      dist.run_commands()
      ~~~~~~~~~~~~~~~~~^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
      self.run_command(cmd)
      ~~~~~~~~~~~~~~~~^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
      super().run_command(command)
      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
      cmd_obj.run()
      ~~~~~~~~~~~^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 385, in run
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 385, in run
      self.run_command("build")
      ~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
      self.distribution.run_command(command)
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
      super().run_command(command)
      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
      cmd_obj.run()
      ~~~~~~~~~~~^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
      self.run_command(cmd_name)
      ~~~~~~~~~~~~~~~~^^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
      self.distribution.run_command(command)
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
      super().run_command(command)
      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
      cmd_obj.run()
      ~~~~~~~~~~~^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
      _build_ext.run(self)
      ~~~~~~~~~~~~~~^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
      _build_ext.build_ext.run(self)
      ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
      self.build_extensions()
      ~~~~~~~~~~~~~~~~~~~~~^^
    File "<string>", line 343, in build_extensions
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
      ext.sources = self.cython_sources(ext.sources, ext)
                    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
      result = cython_compile(source, options=options,
                              full_module_name=module_name)
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
      return compile_single(source, options, full_module_name)
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
      return run_pipeline(source, options, full_module_name)
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
      context = options.create_context()
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
      return Context(self.include_path, self.compiler_directives,
                     self.cplus, self.language_level, options=self)
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
      from . import Builtin, CythonScope
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
      from .UtilityCode import CythonUtilityCode
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
      from .TreeFragment import parse_from_strings, StringParseContext
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
      from .Visitor import VisitorTransform
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
      from . import ExprNodes
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
      class SliceIndexNode(ExprNode):
      ...<486 lines>...
              return "<unused>"
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
      get_slice_utility_code = TempitaUtilityCode.load(
          "SliceObject", "ObjectHandling.c", context={'access': 'Get'})
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
      return cls(**kwargs)
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
      proto = sub_tempita(proto, context, file, name)
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
      from ..Tempita import sub
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
      from ._tempita import *
-   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
+   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
      import cgi
  ModuleNotFoundError: No module named 'cgi'
 
@@ -116,7 +116,7 @@
 [0m[1;31m# Command failed: ('/home/user/.venv/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=jarviscosmetics', '--bootstrap=sdl2', '--requirements=python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,python-dateutil', '--arch=arm64-v8a', '--copy-libs', '--color=always', '--storage-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
 [0m[1;31m# Error code: 1[0m
 [0m[1;31m# ENVIRONMENT:[0m
-[0m[1;31m#     HOSTNAME = 'db29b0ceebeb'[0m
+[0m[1;31m#     HOSTNAME = '49a2c118ec51'[0m
 [0m[1;31m#     LANGUAGE = 'en_US.UTF-8'[0m
 [0m[1;31m#     PWD = '/home/user/hostcwd'[0m
 [0m[1;31m#     WORK_DIR = '/home/user/hostcwd'[0m
