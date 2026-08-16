@@ -1,359 +1,110 @@
-[INFO   ] copying kivy/lib/vidcore_lite/bcm.pxd -> build/lib.linux-x86_64-cpython-314/kivy/lib/vidcore_lite
-[INFO   ] copying kivy/lib/sdl2.pxi -> build/lib.linux-x86_64-cpython-314/kivy/lib
-[INFO   ] copying kivy/graphics/gl_debug_logger.pxi -> build/lib.linux-x86_64-cpython-314/kivy/graphics
-[INFO   ] copying kivy/graphics/opengl_utils_def.pxi -> build/lib.linux-x86_64-cpython-314/kivy/graphics
-[INFO   ] copying kivy/graphics/vertex_instructions_line.pxi -> build/lib.linux-x86_64-cpython-314/kivy/graphics
-[INFO   ] copying kivy/graphics/opcodes.pxi -> build/lib.linux-x86_64-cpython-314/kivy/graphics
-[INFO   ] copying kivy/graphics/memory.pxi -> build/lib.linux-x86_64-cpython-314/kivy/graphics
-[INFO   ] copying kivy/graphics/img_tools.pxi -> build/lib.linux-x86_64-cpython-314/kivy/graphics
-[INFO   ] copying kivy/graphics/common.pxi -> build/lib.linux-x86_64-cpython-314/kivy/graphics
-[INFO   ] copying kivy/core/window/window_attrs.pxi -> build/lib.linux-x86_64-cpython-314/kivy/core/window
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/lib/pango
-[INFO   ] copying kivy/lib/pango/pangoft2.pxi -> build/lib.linux-x86_64-cpython-314/kivy/lib/pango
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/data
-[INFO   ] copying kivy/data/style.kv -> build/lib.linux-x86_64-cpython-314/kivy/data
-[INFO   ] copying kivy/data/settings_kivy.json -> build/lib.linux-x86_64-cpython-314/kivy/data
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] copying kivy/data/keyboards/qwertz.json -> build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] copying kivy/data/keyboards/de_CH.json -> build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] copying kivy/data/keyboards/de.json -> build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] copying kivy/data/keyboards/qwerty.json -> build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] copying kivy/data/keyboards/en_US.json -> build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] copying kivy/data/keyboards/fr_CH.json -> build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] copying kivy/data/keyboards/azerty.json -> build/lib.linux-x86_64-cpython-314/kivy/data/keyboards
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-16.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-128.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-512.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-64.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-48.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-32.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-24.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-64.ico -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] copying kivy/data/logo/kivy-icon-256.png -> build/lib.linux-x86_64-cpython-314/kivy/data/logo
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/data/glsl
-[INFO   ] copying kivy/data/glsl/header.vs -> build/lib.linux-x86_64-cpython-314/kivy/data/glsl
-[INFO   ] copying kivy/data/glsl/default.png -> build/lib.linux-x86_64-cpython-314/kivy/data/glsl
-[INFO   ] copying kivy/data/glsl/default.fs -> build/lib.linux-x86_64-cpython-314/kivy/data/glsl
-[INFO   ] copying kivy/data/glsl/header.fs -> build/lib.linux-x86_64-cpython-314/kivy/data/glsl
-[INFO   ] copying kivy/data/glsl/default.vs -> build/lib.linux-x86_64-cpython-314/kivy/data/glsl
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/defaultshape.png -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/defaulttheme.atlas -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/image-loading.zip -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/testpattern.png -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/background.jpg -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/image-loading.gif -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/defaulttheme-0.png -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] copying kivy/data/images/cursor.png -> build/lib.linux-x86_64-cpython-314/kivy/data/images
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/data/fonts
-[INFO   ] copying kivy/data/fonts/RobotoMono-Regular.ttf -> build/lib.linux-x86_64-cpython-314/kivy/data/fonts
-[INFO   ] copying kivy/data/fonts/Roboto-Regular.ttf -> build/lib.linux-x86_64-cpython-314/kivy/data/fonts
-[INFO   ] copying kivy/data/fonts/Roboto-Bold.ttf -> build/lib.linux-x86_64-cpython-314/kivy/data/fonts
-[INFO   ] copying kivy/data/fonts/DejaVuSans.ttf -> build/lib.linux-x86_64-cpython-314/kivy/data/fonts
-[INFO   ] copying kivy/data/fonts/Roboto-BoldItalic.ttf -> build/lib.linux-x86_64-cpython-314/kivy/data/fonts
-[INFO   ] copying kivy/data/fonts/Roboto-Italic.ttf -> build/lib.linux-x86_64-cpython-314/kivy/data/fonts
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/include
-[INFO   ] copying kivy/include/gl2platform.h -> build/lib.linux-x86_64-cpython-314/kivy/include
-[INFO   ] copying kivy/include/khrplatform.h -> build/lib.linux-x86_64-cpython-314/kivy/include
-[INFO   ] copying kivy/include/gl_redirect.h -> build/lib.linux-x86_64-cpython-314/kivy/include
-[INFO   ] copying kivy/include/common_subset.h -> build/lib.linux-x86_64-cpython-314/kivy/include
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tools/precommit_hooks
-[INFO   ] copying kivy/tools/precommit_hooks/pre-commit-config.yaml -> build/lib.linux-x86_64-cpython-314/kivy/tools/precommit_hooks
-[INFO   ] copying kivy/tools/highlight/kivy.tmLanguage -> build/lib.linux-x86_64-cpython-314/kivy/tools/highlight
-[INFO   ] copying kivy/tools/highlight/kivy.json-tmlanguage -> build/lib.linux-x86_64-cpython-314/kivy/tools/highlight
-[INFO   ] copying kivy/tools/highlight/kivy.vim -> build/lib.linux-x86_64-cpython-314/kivy/tools/highlight
-[INFO   ] copying kivy/tools/highlight/kivy-mode.el -> build/lib.linux-x86_64-cpython-314/kivy/tools/highlight
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tools/gles_compat
-[INFO   ] copying kivy/tools/gles_compat/subset_gles.py -> build/lib.linux-x86_64-cpython-314/kivy/tools/gles_compat
-[INFO   ] copying kivy/tools/gles_compat/gl2.h -> build/lib.linux-x86_64-cpython-314/kivy/tools/gles_compat
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tools/pep8checker
-[INFO   ] copying kivy/tools/pep8checker/pre-commit.githook -> build/lib.linux-x86_64-cpython-314/kivy/tools/pep8checker
-[INFO   ] copying kivy/tools/pep8checker/pep8.py -> build/lib.linux-x86_64-cpython-314/kivy/tools/pep8checker
-[INFO   ] copying kivy/tools/pep8checker/pep8kivy.py -> build/lib.linux-x86_64-cpython-314/kivy/tools/pep8checker
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tools/image-testsuite
-[INFO   ] copying kivy/tools/image-testsuite/README.md -> build/lib.linux-x86_64-cpython-314/kivy/tools/image-testsuite
-[INFO   ] copying kivy/tools/image-testsuite/gimp28-testsuite.py -> build/lib.linux-x86_64-cpython-314/kivy/tools/image-testsuite
-[INFO   ] copying kivy/tools/image-testsuite/imagemagick-testsuite.sh -> build/lib.linux-x86_64-cpython-314/kivy/tools/image-testsuite
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/sliderv_background_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/textinput_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/action_item_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/switch-button.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/player-play-overlay.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tab_btn.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_disabled_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/bubble_btn_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/selector_middle.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/bubble_btn.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/textinput_active.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/filechooser_folder.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tree_opened.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/audio-volume-high.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/slider_cursor.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/button_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/previous_normal.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/button_disabled_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_disabled_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/modalview-background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/action_view.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/spinner_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/switch-background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/action_item.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/action_group.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/ring.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/progressbar.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/separator.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/filechooser_selected.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/selector_right.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_key_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tree_closed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/button.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tab_btn_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_down_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/button_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/audio-volume-low.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_grip.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_disabled_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/close.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/media-playback-start.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/sliderh_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/action_group_down.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/audio-volume-medium.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/textinput.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tab_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/progressbar_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/media-playback-pause.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/spinner.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_grip_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tab.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/action_group_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/action_bar.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/filechooser_file.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/textinput_disabled_active.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/sliderh_background_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/selector_left.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/audio-volume-muted.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/splitter_disabled_h.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/overflow.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/switch-button_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/slider_cursor_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/bubble.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/sliderv_background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/checkbox_radio_off.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/switch-background_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/media-playback-stop.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/player-background.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/spinner_pressed.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/tab_btn_disabled.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/image-missing.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tools/theming/defaulttheme/bubble_arrow.png -> build/lib.linux-x86_64-cpython-314/kivy/tools/theming/defaulttheme
-[INFO   ] copying kivy/tests/pytest.ini -> build/lib.linux-x86_64-cpython-314/kivy/tests
-[INFO   ] copying kivy/tests/unicode_font.zip -> build/lib.linux-x86_64-cpython-314/kivy/tests
-[INFO   ] copying kivy/tests/unicode_files.zip -> build/lib.linux-x86_64-cpython-314/kivy/tests
-[INFO   ] copying kivy/tests/coverage_lang.kv -> build/lib.linux-x86_64-cpython-314/kivy/tests
-[INFO   ] copying kivy/tests/test_button.png -> build/lib.linux-x86_64-cpython-314/kivy/tests
-[INFO   ] copying kivy/tests/sample1.ogg -> build/lib.linux-x86_64-cpython-314/kivy/tests
-[INFO   ] copying kivy/tests/testkv.kv -> build/lib.linux-x86_64-cpython-314/kivy/tests
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/data
-[INFO   ] copying kivy/tests/data/test.ini -> build/lib.linux-x86_64-cpython-314/kivy/tests/data
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] copying kivy/tests/test_issues/test_6315.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] copying kivy/tests/test_issues/test_issue_1084.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] copying kivy/tests/test_issues/test_issue_609.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] copying kivy/tests/test_issues/test_issue_599.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] copying kivy/tests/test_issues/test_issue_6909.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] copying kivy/tests/test_issues/test_issue_1091.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] copying kivy/tests/test_issues/test_issue_883.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_issues
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller
-[INFO   ] copying kivy/tests/pyinstaller/test_pyinstaller.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/test_urlrequest
-[INFO   ] copying kivy/tests/test_urlrequest/test_urlrequest_urllib.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_urlrequest
-[INFO   ] copying kivy/tests/test_urlrequest/test_urlrequest_requests.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/test_urlrequest
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget
-[INFO   ] copying kivy/tests/pyinstaller/simple_widget/main.spec -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget
-[INFO   ] copying kivy/tests/pyinstaller/simple_widget/main.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget
-[INFO   ] copying kivy/tests/pyinstaller/video_widget/main.spec -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget
-[INFO   ] copying kivy/tests/pyinstaller/video_widget/main.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget/project
-[INFO   ] copying kivy/tests/pyinstaller/video_widget/project/__init__.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/video_widget/project
-[INFO   ] creating build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget/project
-[INFO   ] copying kivy/tests/pyinstaller/simple_widget/project/__init__.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget/project
-[INFO   ] copying kivy/tests/pyinstaller/simple_widget/project/widget.py -> build/lib.linux-x86_64-cpython-314/kivy/tests/pyinstaller/simple_widget/project
-[INFO   ] running build_ext
-Building extensions in parallel using 4 cores
-Updated build directory to: build/lib.linux-x86_64-cpython-314
-Build configuration is:
- * use_rpi_vidcore_lite = 0
- * use_egl = 0
- * use_opengl_es2 = 1
- * use_opengl_mock = 0
- * use_sdl2 = 1
- * use_pangoft2 = 0
- * use_ios = 0
- * use_android = 1
- * use_mesagl = 0
- * use_x11 = 0
- * use_wayland = 0
- * use_gstreamer = 0
- * use_avfoundation = 0
- * use_osx_frameworks = 0
- * debug_gl = 0
- * kivy_sdl_gl_alpha_size = 8
- * debug = False
-Updated build/lib.linux-x86_64-cpython-314/kivy/include/config.h
-Updated /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.h
-Updated build/lib.linux-x86_64-cpython-314/kivy/include/config.pxi
-Updated /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi
-Updated build/lib.linux-x86_64-cpython-314/kivy/setupconfig.py
-Updated /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/setupconfig.py
-Detected compiler is unix
-[INFO   ] cythoning /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.pyx to /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.c
- Traceback (most recent call last):
-   File "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
-     main()
-     ~~~~^^
-   File "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 373, in main
-     json_out["return_val"] = hook(**hook_input["kwargs"])
-                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
-   File "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 280, in build_wheel
-     return _build_backend().build_wheel(
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-         wheel_directory, config_settings, metadata_directory
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-     )
-     ^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/build_meta.py", line 438, in build_wheel
-     return _build(['bdist_wheel'])
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/build_meta.py", line 429, in _build
-     return self._build_with_temp_dir(
-            ~~~~~~~~~~~~~~~~~~~~~~~~~^
-         cmd,
-         ^^^^
-     ...<3 lines>...
+===== pass1 log (last 150 lines) =====
          self._arbitrary_args(config_settings),
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
      )
      ^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
      self.run_setup()
      ~~~~~~~~~~~~~~^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
      super().run_setup(setup_script=setup_script)
      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
      exec(code, locals())  # noqa: S102 # exec is intentional here
      ~~~~^^^^^^^^^^^^^^^^
    File "<string>", line 1153, in <module>
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
      return distutils.core.setup(**attrs)  # type: ignore[return-value]
             ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
      return run_commands(dist)
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
      dist.run_commands()
      ~~~~~~~~~~~~~~~~~^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
      self.run_command(cmd)
      ~~~~~~~~~~~~~~~~^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
      super().run_command(command)
      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
      cmd_obj.run()
      ~~~~~~~~~~~^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 385, in run
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 385, in run
      self.run_command("build")
      ~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
      self.distribution.run_command(command)
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
      super().run_command(command)
      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
      cmd_obj.run()
      ~~~~~~~~~~~^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
      self.run_command(cmd_name)
      ~~~~~~~~~~~~~~~~^^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
      self.distribution.run_command(command)
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
      super().run_command(command)
      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
      cmd_obj.run()
      ~~~~~~~~~~~^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
      _build_ext.run(self)
      ~~~~~~~~~~~~~~^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
      _build_ext.build_ext.run(self)
      ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
      self.build_extensions()
      ~~~~~~~~~~~~~~~~~~~~~^^
    File "<string>", line 343, in build_extensions
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
      ext.sources = self.cython_sources(ext.sources, ext)
                    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
      result = cython_compile(source, options=options,
                              full_module_name=module_name)
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
      return compile_single(source, options, full_module_name)
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
      return run_pipeline(source, options, full_module_name)
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
      context = options.create_context()
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
      return Context(self.include_path, self.compiler_directives,
                     self.cplus, self.language_level, options=self)
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
      from . import Builtin, CythonScope
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
      from .UtilityCode import CythonUtilityCode
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
      from .TreeFragment import parse_from_strings, StringParseContext
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
      from .Visitor import VisitorTransform
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
      from . import ExprNodes
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
      class SliceIndexNode(ExprNode):
      ...<486 lines>...
              return "<unused>"
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
      get_slice_utility_code = TempitaUtilityCode.load(
          "SliceObject", "ObjectHandling.c", context={'access': 'Get'})
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
      return cls(**kwargs)
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
      proto = sub_tempita(proto, context, file, name)
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
      from ..Tempita import sub
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
      from ._tempita import *
-   File "/tmp/build-env-o05m9rl7/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
+   File "/tmp/build-env-4pdufd04/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
      import cgi
  ModuleNotFoundError: No module named 'cgi'
 
@@ -365,7 +116,7 @@ Detected compiler is unix
 [0m[1;31m# Command failed: ('/home/user/.venv/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=jarviscosmetics', '--bootstrap=sdl2', '--requirements=python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,python-dateutil', '--arch=arm64-v8a', '--copy-libs', '--color=always', '--storage-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
 [0m[1;31m# Error code: 1[0m
 [0m[1;31m# ENVIRONMENT:[0m
-[0m[1;31m#     HOSTNAME = '94fd4804f96a'[0m
+[0m[1;31m#     HOSTNAME = 'db29b0ceebeb'[0m
 [0m[1;31m#     LANGUAGE = 'en_US.UTF-8'[0m
 [0m[1;31m#     PWD = '/home/user/hostcwd'[0m
 [0m[1;31m#     WORK_DIR = '/home/user/hostcwd'[0m
@@ -398,3 +149,5 @@ Detected compiler is unix
 [0m[1;31m# Please read the full log, and search for it before[0m
 [0m[1;31m# raising an issue with buildozer itself.[0m
 [0m[1;31m# In case of a bug report, please add a full log with log_level = 2[0m
+
+===== pass2 log (last 800 lines) =====
