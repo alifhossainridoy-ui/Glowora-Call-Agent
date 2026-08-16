@@ -1,110 +1,60 @@
-===== pass1 log (last 150 lines) =====
-         self._arbitrary_args(config_settings),
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-     )
-     ^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
-     self.run_setup()
-     ~~~~~~~~~~~~~~^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
-     super().run_setup(setup_script=setup_script)
-     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
-     exec(code, locals())  # noqa: S102 # exec is intentional here
-     ~~~~^^^^^^^^^^^^^^^^
-   File "<string>", line 1153, in <module>
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
-     return distutils.core.setup(**attrs)  # type: ignore[return-value]
-            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
-     return run_commands(dist)
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
-     dist.run_commands()
-     ~~~~~~~~~~~~~~~~~^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
-     self.run_command(cmd)
-     ~~~~~~~~~~~~~~~~^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+===== pass1 log (last 100 lines) =====
      super().run_command(command)
      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
      cmd_obj.run()
      ~~~~~~~~~~~^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 385, in run
-     self.run_command("build")
-     ~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
-     self.distribution.run_command(command)
-     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
-     super().run_command(command)
-     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
-     cmd_obj.run()
-     ~~~~~~~~~~~^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
-     self.run_command(cmd_name)
-     ~~~~~~~~~~~~~~~~^^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
-     self.distribution.run_command(command)
-     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
-     super().run_command(command)
-     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
-     cmd_obj.run()
-     ~~~~~~~~~~~^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
      _build_ext.run(self)
      ~~~~~~~~~~~~~~^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
      _build_ext.build_ext.run(self)
      ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
      self.build_extensions()
      ~~~~~~~~~~~~~~~~~~~~~^^
    File "<string>", line 343, in build_extensions
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
      ext.sources = self.cython_sources(ext.sources, ext)
                    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
      result = cython_compile(source, options=options,
                              full_module_name=module_name)
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
      return compile_single(source, options, full_module_name)
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
      return run_pipeline(source, options, full_module_name)
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
      context = options.create_context()
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
      return Context(self.include_path, self.compiler_directives,
                     self.cplus, self.language_level, options=self)
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
      from . import Builtin, CythonScope
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
      from .UtilityCode import CythonUtilityCode
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
      from .TreeFragment import parse_from_strings, StringParseContext
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
      from .Visitor import VisitorTransform
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
      from . import ExprNodes
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
      class SliceIndexNode(ExprNode):
      ...<486 lines>...
              return "<unused>"
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
      get_slice_utility_code = TempitaUtilityCode.load(
          "SliceObject", "ObjectHandling.c", context={'access': 'Get'})
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
      return cls(**kwargs)
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
      proto = sub_tempita(proto, context, file, name)
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
      from ..Tempita import sub
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
      from ._tempita import *
-   File "/tmp/build-env-jfk_kzl8/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
+   File "/tmp/build-env-vk56cs1p/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
      import cgi
  ModuleNotFoundError: No module named 'cgi'
 
@@ -116,7 +66,7 @@
 [0m[1;31m# Command failed: ('/home/user/.venv/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=jarviscosmetics', '--bootstrap=sdl2', '--requirements=python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,python-dateutil', '--arch=arm64-v8a', '--copy-libs', '--color=always', '--storage-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
 [0m[1;31m# Error code: 1[0m
 [0m[1;31m# ENVIRONMENT:[0m
-[0m[1;31m#     HOSTNAME = '49a2c118ec51'[0m
+[0m[1;31m#     HOSTNAME = 'b92cebf76079'[0m
 [0m[1;31m#     LANGUAGE = 'en_US.UTF-8'[0m
 [0m[1;31m#     PWD = '/home/user/hostcwd'[0m
 [0m[1;31m#     WORK_DIR = '/home/user/hostcwd'[0m
@@ -150,4 +100,610 @@
 [0m[1;31m# raising an issue with buildozer itself.[0m
 [0m[1;31m# In case of a bug report, please add a full log with log_level = 2[0m
 
-===== pass2 log (last 800 lines) =====
+===== hostpython lookup =====
+hostpython3 binary: .buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/bin/python3.14-config
+
+===== cython patch log =====
+Unknown command/target /bin/bash
+
+===== pass2 log (last 600 lines) =====
+  File "/home/user/.venv/lib/python3.14/site-packages/sh/__init__.py", line 876, in __next__
+    self.wait()
+    ~~~~~~~~~^^
+  File "/home/user/.venv/lib/python3.14/site-packages/sh/__init__.py", line 793, in wait
+    self.handle_command_exit_code(exit_code)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/user/.venv/lib/python3.14/site-packages/sh/__init__.py", line 820, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/bin/python -m build --wheel --config-setting builddir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/p4a_android_build
+
+  STDOUT:
+[1m* Creating isolated environment: venv+pip...[0m
+[1m* Installing packages in isolated environment:[0m
+  - cython>=0.24,<=0.29.33,!=0.27,!=0.27.2
+  - kivy_deps.glew_dev~=0.3.1; sys_platform == "win32"
+  - kivy_deps.glew~=0.3.1; sys_platform == "win32"
+  - kivy_deps.gstreamer_dev~=0.3.3; sys_platform == "win32"
+  - kivy_deps.gstreamer~=0.3.3; sys_platform == "win32"
+  - kivy_deps.sdl2_dev~=0.6.0; sys_platform == "win32"
+  - kivy_deps.sdl2~=0.6.0; sys_platform == "win32"
+  - packaging
+  - setuptools
+  - wheel
+[1m* Getting build dependencies for wheel...[0m
+[WARNING] [Config      ] Older configuration version detected (0 instead of 27)
+[WARNING] [Config      ] Upgrading configuration in progress.
+[DEBUG  ] [Config      ] Upgrading from 0 to 1
+[INFO   ] [Logger      ] Record log in /home/user/.kivy/logs/kivy_26-08-16_0.txt
+[INFO   ] [Kivy        ] v2.2.1
+[INFO   ] [Kivy        ] Installed at "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/__init__.py"
+[INFO   ] [Python      ] v3.14.2 (main, Aug 16 2026, 03:59:27) [GCC 15.2.0]
+[INFO   ] [Python      ] Interpreter at "/tmp/build-env-jrcs0tks/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+Environ change use_sdl2 -> True
+Current directory is: /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy
+Source and initial build directory is: /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy
+Python path is:
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python314.zip
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/lib-dynload
+/tmp/build-env-jrcs0tks/lib/python3.14/site-packages
+/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_vendor
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/modules
+/home/user/.kivy/mods
+
+
+Found Cython at /tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/__init__.py
+Detected supported Cython version 0.29.33
+Using this graphics system: OpenGL ES 2
+WARNING: A problem occurred while running pkg-config --libs --cflags sdl2 SDL2_ttf SDL2_image SDL2_mixer (code 1)
+
+b"Package sdl2 was not found in the pkg-config search path.\nPerhaps you should add the directory containing `sdl2.pc'\nto the PKG_CONFIG_PATH environment variable\nPackage 'sdl2' not found\nPackage 'SDL2_ttf' not found\nPackage 'SDL2_image' not found\nPackage 'SDL2_mixer' not found\n"
+
+SDL2: found SDL header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL/include/SDL.h
+SDL2: found SDL_mixer header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL2_mixer/include/SDL_mixer.h
+SDL2: found SDL_ttf header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/SDL_ttf.h
+SDL2: found SDL_image header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL2_image/include/SDL_image.h
+ /tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+ !!
+ 
+         ********************************************************************************
+         Please consider removing the following classifiers in favor of a SPDX license expression:
+ 
+         License :: OSI Approved :: MIT License
+ 
+         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+         ********************************************************************************
+ 
+ !!
+   self._finalize_license_expression()
+[INFO   ] running egg_info
+[INFO   ] writing Kivy.egg-info/PKG-INFO
+[INFO   ] writing dependency_links to Kivy.egg-info/dependency_links.txt
+[INFO   ] writing requirements to Kivy.egg-info/requires.txt
+[INFO   ] writing top-level names to Kivy.egg-info/top_level.txt
+Building extensions in parallel using 4 cores
+Updated build directory to: build/lib.linux-x86_64-cpython-314
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/properties.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_metrics.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opcodes.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opcodes.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opcodes.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opengl_utils_def.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/gl_debug_logger.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opcodes.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/gl_debug_logger.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opcodes.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opengl_utils_def.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/opengl_utils.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/img_tools.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/gl_debug_logger.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/gl_debug_logger.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex_instructions_line.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/stencil_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/tesselator.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/fbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/cgl.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/common.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/config.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/include/gl_redirect.h won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vbo.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/buffer.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/context_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/transformation.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/texture.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/compiler.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/shader.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/../_event.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.pxd won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/lib/sdl2.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/lib/sdl2.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/lib/sdl2.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/lib/sdl2.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] [dependency /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/lib/sdl2.pxi won't be automatically included in the manifest] the path must be relative
+[INFO   ] reading manifest file 'Kivy.egg-info/SOURCES.txt'
+[INFO   ] reading manifest template 'MANIFEST.in'
+[WARNING] [warning     ] no files found matching '*.txt' under directory 'kivy/tools'
+[WARNING] [warning     ] no files found matching '*.bat' under directory 'kivy/tools'
+[WARNING] [warning     ] no files found matching '*.pyd' under directory 'kivy'
+[INFO   ] adding license file 'LICENSE'
+[INFO   ] adding license file 'AUTHORS'
+[INFO   ] writing manifest file 'Kivy.egg-info/SOURCES.txt'
+[1m* Building wheel...[0m
+[INFO   ] [Logger      ] Record log in /home/user/.kivy/logs/kivy_26-08-16_1.txt
+[INFO   ] [Kivy        ] v2.2.1
+[INFO   ] [Kivy        ] Installed at "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/__init__.py"
+[INFO   ] [Python      ] v3.14.2 (main, Aug 16 2026, 03:59:27) [GCC 15.2.0]
+[INFO   ] [Python      ] Interpreter at "/tmp/build-env-jrcs0tks/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+Environ change use_sdl2 -> True
+Current directory is: /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy
+Source and initial build directory is: /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy
+Python path is:
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python314.zip
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/lib-dynload
+/tmp/build-env-jrcs0tks/lib/python3.14/site-packages
+/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_vendor
+/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/modules
+/home/user/.kivy/mods
+
+
+Found Cython at /tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/__init__.py
+Detected supported Cython version 0.29.33
+Using this graphics system: OpenGL ES 2
+WARNING: A problem occurred while running pkg-config --libs --cflags sdl2 SDL2_ttf SDL2_image SDL2_mixer (code 1)
+
+b"Package sdl2 was not found in the pkg-config search path.\nPerhaps you should add the directory containing `sdl2.pc'\nto the PKG_CONFIG_PATH environment variable\nPackage 'sdl2' not found\nPackage 'SDL2_ttf' not found\nPackage 'SDL2_image' not found\nPackage 'SDL2_mixer' not found\n"
+
+SDL2: found SDL header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL/include/SDL.h
+SDL2: found SDL_mixer header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL2_mixer/include/SDL_mixer.h
+SDL2: found SDL_ttf header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/SDL_ttf.h
+SDL2: found SDL_image header at /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/bootstrap_builds/sdl2/jni/SDL2_image/include/SDL_image.h
+ /tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+ !!
+ 
+         ********************************************************************************
+         Please consider removing the following classifiers in favor of a SPDX license expression:
+ 
+         License :: OSI Approved :: MIT License
+ 
+         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+         ********************************************************************************
+ 
+ !!
+   self._finalize_license_expression()
+[INFO   ] running bdist_wheel
+[INFO   ] running build
+[INFO   ] running build_py
+[INFO   ] copying kivy/include/config.h -> build/lib.linux-x86_64-cpython-314/kivy/include
+[INFO   ] running build_ext
+Building extensions in parallel using 4 cores
+Updated build directory to: build/lib.linux-x86_64-cpython-314
+Build configuration is:
+ * use_rpi_vidcore_lite = 0
+ * use_egl = 0
+ * use_opengl_es2 = 1
+ * use_opengl_mock = 0
+ * use_sdl2 = 1
+ * use_pangoft2 = 0
+ * use_ios = 0
+ * use_android = 1
+ * use_mesagl = 0
+ * use_x11 = 0
+ * use_wayland = 0
+ * use_gstreamer = 0
+ * use_avfoundation = 0
+ * use_osx_frameworks = 0
+ * debug_gl = 0
+ * kivy_sdl_gl_alpha_size = 8
+ * debug = False
+Detected compiler is unix
+[INFO   ] cythoning /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.pyx to /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/kivy/_event.c
+ Traceback (most recent call last):
+   File "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+     main()
+     ~~~~^^
+   File "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+     json_out["return_val"] = hook(**hook_input["kwargs"])
+                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+   File "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py", line 280, in build_wheel
+     return _build_backend().build_wheel(
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+         wheel_directory, config_settings, metadata_directory
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     )
+     ^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/build_meta.py", line 438, in build_wheel
+     return _build(['bdist_wheel'])
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/build_meta.py", line 429, in _build
+     return self._build_with_temp_dir(
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^
+         cmd,
+         ^^^^
+     ...<3 lines>...
+         self._arbitrary_args(config_settings),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     )
+     ^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+     self.run_setup()
+     ~~~~~~~~~~~~~~^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+     super().run_setup(setup_script=setup_script)
+     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+     exec(code, locals())  # noqa: S102 # exec is intentional here
+     ~~~~^^^^^^^^^^^^^^^^
+   File "<string>", line 1153, in <module>
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
+     return distutils.core.setup(**attrs)  # type: ignore[return-value]
+            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
+     return run_commands(dist)
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
+     dist.run_commands()
+     ~~~~~~~~~~~~~~~~~^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
+     self.run_command(cmd)
+     ~~~~~~~~~~~~~~~~^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+     super().run_command(command)
+     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+     cmd_obj.run()
+     ~~~~~~~~~~~^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 385, in run
+     self.run_command("build")
+     ~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+     self.distribution.run_command(command)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+     super().run_command(command)
+     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+     cmd_obj.run()
+     ~~~~~~~~~~~^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
+     self.run_command(cmd_name)
+     ~~~~~~~~~~~~~~~~^^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+     self.distribution.run_command(command)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+     super().run_command(command)
+     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+     cmd_obj.run()
+     ~~~~~~~~~~~^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 95, in run
+     _build_ext.run(self)
+     ~~~~~~~~~~~~~~^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
+     _build_ext.build_ext.run(self)
+     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
+     self.build_extensions()
+     ~~~~~~~~~~~~~~~~~~~~~^^
+   File "<string>", line 343, in build_extensions
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 193, in build_extensions
+     ext.sources = self.cython_sources(ext.sources, ext)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Distutils/old_build_ext.py", line 346, in cython_sources
+     result = cython_compile(source, options=options,
+                             full_module_name=module_name)
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 786, in compile
+     return compile_single(source, options, full_module_name)
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 731, in compile_single
+     return run_pipeline(source, options, full_module_name)
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 479, in run_pipeline
+     context = options.create_context()
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 600, in create_context
+     return Context(self.include_path, self.compiler_directives,
+                    self.cplus, self.language_level, options=self)
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Main.py", line 80, in __init__
+     from . import Builtin, CythonScope
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/CythonScope.py", line 5, in <module>
+     from .UtilityCode import CythonUtilityCode
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/UtilityCode.py", line 3, in <module>
+     from .TreeFragment import parse_from_strings, StringParseContext
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/TreeFragment.py", line 17, in <module>
+     from .Visitor import VisitorTransform
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Visitor.py", line 17, in <module>
+     from . import ExprNodes
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4749, in <module>
+     class SliceIndexNode(ExprNode):
+     ...<486 lines>...
+             return "<unused>"
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/ExprNodes.py", line 4946, in SliceIndexNode
+     get_slice_utility_code = TempitaUtilityCode.load(
+         "SliceObject", "ObjectHandling.c", context={'access': 'Get'})
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 404, in load
+     return cls(**kwargs)
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 649, in __init__
+     proto = sub_tempita(proto, context, file, name)
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Compiler/Code.py", line 641, in sub_tempita
+     from ..Tempita import sub
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Tempita/__init__.py", line 4, in <module>
+     from ._tempita import *
+   File "/tmp/build-env-jrcs0tks/lib/python3.14/site-packages/Cython/Tempita/_tempita.py", line 36, in <module>
+     import cgi
+ ModuleNotFoundError: No module named 'cgi'
+
+[91mERROR[0m Backend subprocess exited when trying to invoke build_wheel
+
+
+  STDERR:
+
+[0m[1;30m# Run '/home/user/.venv/bin/python3 -m pip install -q appdirs colorama>=0.3.3 jinja2 sh>=2, <3.0; sys_platform!="win32" meson ninja build toml packaging setuptools wheel~=0.43.0' ...[0m
+[0m[1;30m# Cwd None[0m
+[0m[1;34m# Apache ANT found at /home/user/.buildozer/android/platform/apache-ant-1.9.4[0m
+[0m[1;34m# Android SDK found at /home/user/.buildozer/android/platform/android-sdk[0m
+[0m[1;34m# Recommended android's NDK version by p4a is: 28c[0m
+[0m[1;34m# Android NDK found at /home/user/.buildozer/android/platform/android-ndk-r25b[0m
+[0m[1;30m# Run '/home/user/.venv/bin/python3 -m pythonforandroid.toolchain aab -h --color=always --storage-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a --ndk-api=24 --ignore-setup-py --debug' ...[0m
+[0m[1;30m# Cwd /home/user/hostcwd/.buildozer/android/platform/python-for-android[0m
+[0m[1;34m# Check application requirements[0m
+[0m[1;34m# Compile platform[0m
+[0m[1;30m# Run '/home/user/.venv/bin/python3 -m pythonforandroid.toolchain create --dist_name=jarviscosmetics --bootstrap=sdl2 --requirements=python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,python-dateutil --arch=arm64-v8a --copy-libs --color=always --storage-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a --ndk-api=24 --ignore-setup-py --debug' ...[0m
+[0m[1;30m# Cwd /home/user/hostcwd/.buildozer/android/platform/python-for-android[0m
+[0m[1;31m# Command failed: ('/home/user/.venv/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=jarviscosmetics', '--bootstrap=sdl2', '--requirements=python3,kivy==2.2.1,kivymd==1.1.1,android,pyjnius,speechrecognition,gTTS,pydub,requests,beautifulsoup4,peewee,python-dateutil', '--arch=arm64-v8a', '--copy-libs', '--color=always', '--storage-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
+[0m[1;31m# Error code: 1[0m
+[0m[1;31m# ENVIRONMENT:[0m
+[0m[1;31m#     HOSTNAME = '2308e4887a0f'[0m
+[0m[1;31m#     LANGUAGE = 'en_US.UTF-8'[0m
+[0m[1;31m#     PWD = '/home/user/hostcwd'[0m
+[0m[1;31m#     PIP_NO_BUILD_ISOLATION = '1'[0m
+[0m[1;31m#     WORK_DIR = '/home/user/hostcwd'[0m
+[0m[1;31m#     HOME = '/home/user'[0m
+[0m[1;31m#     LANG = 'en_US.UTF-8'[0m
+[0m[1;31m#     VIRTUAL_ENV = '/home/user/.venv'[0m
+[0m[1;31m#     PIP_CONSTRAINT = '/home/user/hostcwd/pip-constraints.txt'[0m
+[0m[1;31m#     HOME_DIR = '/home/user'[0m
+[0m[1;31m#     USER = 'user'[0m
+[0m[1;31m#     SHLVL = '0'[0m
+[0m[1;31m#     SRC_DIR = '/home/user/src'[0m
+[0m[1;31m#     LC_ALL = 'en_US.UTF-8'[0m
+[0m[1;31m#     PATH = '/home/user/.buildozer/android/platform/apache-ant-1.9.4/bin:/home/user/.venv/bin:/home/user/.venv/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'[0m
+[0m[1;31m#     LOGNAME = 'user'[0m
+[0m[1;31m#     SHELL = '/bin/bash'[0m
+[0m[1;31m#     TERM = 'unknown'[0m
+[0m[1;31m#     SUDO_COMMAND = '/home/user/.venv/bin/buildozer android debug'[0m
+[0m[1;31m#     SUDO_USER = 'root'[0m
+[0m[1;31m#     SUDO_UID = '0'[0m
+[0m[1;31m#     SUDO_GID = '0'[0m
+[0m[1;31m#     SUDO_HOME = '/root'[0m
+[0m[1;31m#     PACKAGES_PATH = '/home/user/.buildozer/android/packages'[0m
+[0m[1;31m#     ANDROIDSDK = '/home/user/.buildozer/android/platform/android-sdk'[0m
+[0m[1;31m#     ANDROIDNDK = '/home/user/.buildozer/android/platform/android-ndk-r25b'[0m
+[0m[1;31m#     ANDROIDAPI = '33'[0m
+[0m[1;31m#     ANDROIDMINAPI = '24'[0m
+[0m[1;31m# [0m
+[0m[1;31m# Buildozer failed to execute the last command[0m
+[0m[1;31m# The error might be hidden in the log above this error[0m
+[0m[1;31m# Please read the full log, and search for it before[0m
+[0m[1;31m# raising an issue with buildozer itself.[0m
+[0m[1;31m# In case of a bug report, please add a full log with log_level = 2[0m
